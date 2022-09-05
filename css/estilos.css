@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/fondo4.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+header {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+}
+header .navbar-brand {
+  font-size: 40px;
+  color: #E8F1F2;
+  font-weight: bold;
+}
+header .navbar-nav {
+  font-size: 20px;
+}
+header .nav-link {
+  color: #E8F1F2 !important;
+  padding: 15px 10px;
+  border-radius: 4px;
+}
+header .nav-link:hover {
+  background-color: #1B98E0;
+  transition: 0.7s;
+}
+
+/* MAIN */
+.principal .fotoperfil {
+  text-align: center;
+  padding-top: 100px;
+}
+.principal .rounded-circle {
+  max-width: 250px;
+  box-shadow: 2px 2px 10px black;
+}
+.principal h1 {
+  font-size: 4rem;
+  color: #ffff40;
+  text-shadow: 2px 2px 4px black;
+}
+.principal p {
+  color: #E8F1F2;
+  text-shadow: 2px 2px 4px black;
+}
+.principal .frase {
+  font-size: 30px;
+  color: #E8F1F2;
+}
+.principal .jumbotron {
+  background-color: transparent;
+  font-size: 2rem;
+  text-align: center;
+}
+.principal .btn {
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 2px 2px 10px black;
+}
+.principal .descarga {
+  color: #E8F1F2;
+}
+
+/* SKILLS */
+.skills-main {
+  text-align: center;
+  align-content: center;
+  font-size: 70%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 80px;
+}
+.skills-main h2 {
+  font-size: 50px;
+  color: #E8F1F2;
+  text-shadow: 2px 2px 4px black;
+}
+.skills-main p {
+  font-size: 30px;
+  color: #E8F1F2;
+}
+.skills-main .skills {
+  margin-top: 50px;
+  padding: 30px;
+}
+.skills-main .skill-logo {
+  max-width: 100px;
+}
+.skills-main p {
+  font-size: 25px;
+  color: #E8F1F2;
+  padding: 0;
+}
+.skills-main .row {
+  padding: 30px 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* SERVICES */
+.services-main {
+  text-align: center;
+  font-size: 80%;
+  padding-top: 80px;
+}
+.services-main h2 {
+  font-size: 50px;
+  color: #E8F1F2;
+  text-shadow: 2px 2px 4px black;
+}
+.services-main p {
+  font-size: 30px;
+  color: #E8F1F2;
+}
+.services-main .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.services-main .services-list {
+  padding: 50px;
+}
+.services-main .services-icon {
+  max-width: 150px;
+  padding: 20px;
+}
+.services-main .services-logo {
+  padding: 0px;
+}
+.services-main h3 {
+  font-size: 25px;
+  color: #E8F1F2;
+  text-shadow: 2px 2px 4px black;
+}
+.services-main p {
+  color: #E8F1F2;
+  font-size: 20px;
+}
+
+/* PORTFOLIO */
+.portfolio-main {
+  text-align: center;
+  font-size: 80%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 80px;
+}
+.portfolio-main h2 {
+  font-size: 50px;
+  color: #E8F1F2;
+  text-shadow: 2px 2px 4px black;
+}
+.portfolio-main p {
+  font-size: 30px;
+  color: #E8F1F2;
+}
+.portfolio-main .carousel-inner {
+  padding-top: 20px;
+}
+.portfolio-main .portfolio-img {
+  width: 60%;
+  object-fit: cover;
+}
+.portfolio-main .carousel-indicators {
+  z-index: 5;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  font-size: 60px;
+  padding-top: 80px;
+}
+.contact .row {
+  flex-direction: column;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.contact h2 {
+  font-size: 50px;
+  color: #E8F1F2;
+  text-shadow: 2px 2px 4px black;
+}
+.contact p {
+  font-size: 30px;
+  color: #E8F1F2;
+  text-shadow: 2px 2px 4px black;
+}
+.contact .contact-icon {
+  max-width: 100px;
+}
+.contact .col p {
+  color: #E8F1F2;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px black;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgba(0, 0, 0, 0.596);
+  color: #E8F1F2;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  width: auto;
+}
+footer i {
+  letter-spacing: 20px;
+  font-size: 35px;
+  color: #E8F1F2;
+  padding-top: 20px;
+}
+footer i:hover {
+  color: #d00000;
+  transition: 0.5s;
+}
+
+@media only screen and (min-width: 767px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 120px;
+  }
+  .navbar-brand {
+    margin-left: 120px;
+  }
+  section {
+    height: 100%;
+    width: auto;
+  }
+  .principal {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0;
+  }
+  main div {
+    padding: 0 50px;
+  }
+  .contact {
+    height: calc(100% - 250px);
+  }
+  .contact .row {
+    flex-direction: row;
+  }
+  .subir {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(128, 128, 128, 0.526);
+    color: #E8F1F2;
+    position: fixed;
+    bottom: 40px;
+    right: 35px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border-color: black;
+  }
+  .fa-chevron-up:before {
+    color: #E8F1F2;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
