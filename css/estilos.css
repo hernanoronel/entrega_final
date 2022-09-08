@@ -244,19 +244,15 @@ footer i:hover {
     margin-left: 120px;
   }
   section {
-    height: 100%;
+    min-height: 100vh;
+    text-align: center;
     width: auto;
   }
   .principal {
     display: flex;
     justify-content: center;
     padding: 150px 0;
-  }
-  main div {
-    padding: 0 50px;
-  }
-  .contact {
-    height: calc(100% - 250px);
+    height: calc(100vh - 40px);
   }
   .contact .row {
     flex-direction: row;
